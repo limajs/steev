@@ -3,7 +3,7 @@
 
 
 // base path, that will be used to resolve files and exclude
-basePath = '.'
+basePath = '.';
 
 
 // list of files / patterns to load in the browser
@@ -11,6 +11,8 @@ files = [
   JASMINE,
   JASMINE_ADAPTER,
   '../public/lib/angular.js',
+  '../public/lib/angular-mocks.js',
+  '../public/app.js',
   'unit/**/*.js'
 ];
 

@@ -4,10 +4,10 @@ describe("Application Controller", function () {
 
         beforeEach(inject(function ($rootScope, $controller) {
             scope = $rootScope.$new();
+            ctrl = $controller(ApplicationController, {$scope: scope});
         }));
 
         it("Defaults to 'Hello World'", function () {
-
             expect(scope.welcomeMessage).toBe('Hello World');
         });
     });
