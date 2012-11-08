@@ -10,6 +10,7 @@ basePath = '.'
 files = [
   JASMINE,
   JASMINE_ADAPTER,
+  '../public/lib/angular.js',
   'unit/**/*.js'
 ];
 
